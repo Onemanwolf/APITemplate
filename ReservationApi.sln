@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationApi", "ReservationApi.csproj", "{5B1A1904-92E8-473C-BA0B-CAB4E9C6D266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationApi.Tests", "ReservationApi.Tests\ReservationApi.Tests.csproj", "{DF3EFE6C-8BCC-4094-BF90-3CB82843C8F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B1A1904-92E8-473C-BA0B-CAB4E9C6D266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1A1904-92E8-473C-BA0B-CAB4E9C6D266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1A1904-92E8-473C-BA0B-CAB4E9C6D266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1A1904-92E8-473C-BA0B-CAB4E9C6D266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3EFE6C-8BCC-4094-BF90-3CB82843C8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3EFE6C-8BCC-4094-BF90-3CB82843C8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3EFE6C-8BCC-4094-BF90-3CB82843C8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3EFE6C-8BCC-4094-BF90-3CB82843C8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A194B7E6-DE1C-48B7-99A5-D7B6B4969142}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\ReservationApi.deps.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\ReservationApi.runtimeconfig.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\ReservationApi.runtimeconfig.dev.json
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\ReservationApi.dll
+C:\Users\tioleson\Source\Repos\AmadeusApi\bin\Debug\netcoreapp2.2\ReservationApi.pdb
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.csprojAssemblyReference.cache
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.RazorAssemblyInfo.cache
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.RazorAssemblyInfo.cs
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.AssemblyInfoInputs.cache
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.AssemblyInfo.cs
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.RazorTargetAssemblyInfo.cache
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.dll
+C:\Users\tioleson\Source\Repos\AmadeusApi\obj\Debug\netcoreapp2.2\ReservationApi.pdb

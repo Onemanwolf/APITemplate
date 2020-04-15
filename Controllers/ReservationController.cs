@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ReservationApi.Models;
 using ReservationApi.Services;
@@ -26,6 +27,9 @@ namespace ReservationApi.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public class ReservationController : ControllerBase
     {
 
@@ -37,7 +41,19 @@ namespace ReservationApi.Controllers
             _reservationService = bookService;
 
         }
+
+
+
+
         [HttpGet]
+        /// <summary>
+        /// Get all Reservations.
+        /// </summary>
+        /// <response code="200">Returns when the Reservation is found </response>
+        /// <response code="400">If the Reservation is null</response>
+        /// <response code="404">If the Reservation is Not Found</response>
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<List<Reservation>>> Get()
         {
 
@@ -49,17 +65,28 @@ namespace ReservationApi.Controllers
         }
 
 
-        [HttpGet("{id:length(24)}", Name = "GetReservation")]
-        public async Task<ActionResult<Reservation>> Get(string id)
+        /// <summary>
+        /// Get a specific Reservation.
+        /// </summary>
+        /// <param name="id"></param> 
+        /// <response code="200">Returns when the Reservation is found </response>
+        /// <response code="400">If the Reservation is null</response>
+        /// <response code="404">If the Reservation is Not Found</response>
+        [HttpGet("{id}", Name = "GetReservation")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<Reservation>> GetAsync(string id)
         {
             var reservation = await _reservationService.GetAsync(id);
 
             if (reservation == null)
             {
+                Log.Information($"Reservation for Id:{id} Not Found");
                 return NotFound();
             }
 
-            return reservation;
+            return Ok(reservation);
         }
 
         [HttpPost]

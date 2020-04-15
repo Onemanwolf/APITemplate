@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\ReservationApi.csproj": {}
+    "C:\\Users\\tioleson\\source\\repos\\APITemplate\\ReservationApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\ReservationApi.csproj": {
+    "C:\\Users\\tioleson\\source\\repos\\APITemplate\\ReservationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\ReservationApi.csproj",
+        "projectUniqueName": "C:\\Users\\tioleson\\source\\repos\\APITemplate\\ReservationApi.csproj",
         "projectName": "ReservationApi",
-        "projectPath": "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\ReservationApi.csproj",
+        "projectPath": "C:\\Users\\tioleson\\source\\repos\\APITemplate\\ReservationApi.csproj",
         "packagesPath": "C:\\Users\\tioleson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\obj\\",
+        "outputPath": "C:\\Users\\tioleson\\source\\repos\\APITemplate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFW84/DY1gU7T0ETJe1MvongHYHHhOVo+o79uOY1HuM/HmaNG9wy1tD8eNzvhJzAKp4M5emnYIxlqvNYoZg81g==",
+  "dgSpecHash": "M0Hq1Yubtfe1SmyLBf+VX+277Q7UUagORLn5lAvlQxM9ol2pBkDeQmcXL5J9Gjt0Wg8yCkfWmuWsfNxj0pDsgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tioleson\\source\\repos\\AmadeusApi\\ReservationApi.csproj",
+  "projectFilePath": "C:\\Users\\tioleson\\source\\repos\\APITemplate\\ReservationApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tioleson\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\identitymodel\\2.12.0\\identitymodel.2.12.0.nupkg.sha512",
